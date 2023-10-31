@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sign-up.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Projeto Gulliver</title>
+</head>
+
+<body>
+    <div class="sign-up-form">
+        <div>
+            <h1>Cadastre-se</h1>
+
+            <form name="sign-up" id="sign-up" action="endereço de um script" method="post">
+                <div class="attribute"><label for="name"><i class="fa-solid fa-user-large"></i></label>
+                    <input class="fields" type="text" id="name" placeholder="Nome completo" autofocus required>
+                </div>
+                <div class="attribute">
+                    <label for="e-mail"><i class="fa-solid fa-envelope"></i></label>
+                    <input class="fields" type="text" id="e-mail" placeholder="E-mail" required>
+                </div>
+                <div class="attribute">
+                    <label for="password"><i class="fa-solid fa-lock"></i></label>
+                    <input class="fields" type="password" id="password" placeholder="Senha" required maxlength="15"
+                        minlength="5">
+                </div>
+                <div class="attribute">
+                    <label for="password"><i class="fa-solid fa-lock"></i></label>
+                    <input class="fields" type="password" id="password" placeholder="Repita a senha" required
+                        maxlength="15" minlength="5">
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="check">
+                    <label for="check">Eu li e concordo com os <a href="">termos de uso</a></label>
+                </div>
+                <div>
+                    <button class="register-button" type="submit">Registrar</button>
+                </div>
+            </form>
+        </div>
+        <div class="sign-up-img">
+            <img src="./images/istockphoto-1346272901-612x612.jpg" alt="">
+        </div>
+    </div>
+   
+</body>
+
+</html>

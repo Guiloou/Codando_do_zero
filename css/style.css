@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+   /* Header */
+
+   .header {
+     background-color: rgb(0, 0, 0);
+     display: flex;
+     width: 100%;
+     height: 40px;
+     justify-content: space-between;
+     align-items: center;
+     color: #ffffff;
+   }
+
+   .logo {
+     display: flex;
+     margin-left: 15px;
+   }
+
+
+   .list {
+     display: flex;
+     list-style: none;
+   }
+
+   .list li{
+    margin: 0 10px;
+   }
+
+   .list a{
+    text-decoration: none;
+    color: #fff;
+   }
+
+   .list a:hover{
+    color: #b9b9b9;
+   }
+
+
+   /* Squares */
+
+   .square-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    margin: 10px auto;
+ 
+   }
+   .square {
+    margin: 10px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+   }
+
+   .square h3{
+    font-size: 35px;
+    margin: 5px 0;
+   }
+
+   .square i{
+    font-size: 50px;
+    margin: 20px 0;
+   }
+
+   .square p{
+    margin: 3px 15px;
+   }
+
+
+
+   /* Pagina Ibira */
+
+   .ibira-page {
+     background-image: url(../images/ovo-de-pascoa-ibirapuera.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+
+   .ibira-box {
+     height: 300px;
+     width: 500px;
+     background-color: rgb(34, 34, 216, 0.8);
+     margin: 320px 150px;
+     padding: 20px;
+     box-sizing: border-box;
+
+   }
+
+   .ibira-title {
+     font-size: 35px;
+     text-transform: uppercase;
+     text-align: center;
+     color: #fff;
+   }
+
+   .ibira-text {
+     color: #fff;
+     font-size: 18px;
+     padding-top: 17px;
+     padding-bottom: 10px;
+     letter-spacing: 0.5px;
+   }
+
+   .ibira-button {
+     background-color: #fff;
+     padding: 10px 20px;
+     color: rgb(34, 34, 216, 0.8);
+     text-decoration: none;
+     font-weight: 500;
+
+   }
+
+   /* Quarto hotel */
+
+   .img-box {
+     width: 100%;
+     height: 750px;
+   }
+
+   .room-title {
+     font-size: 50px;
+     color: #120366;
+   }
+
+   .room-text {
+     margin-left: 50px;
+   }
+
+   .description {
+     margin-left: 50px;
+   }
+
+   .description-title {
+     font-size: 25px;
+     font-weight: 100;
+     margin-left: 50px;
+     color: #1a00ad;
+   }
+
+   .icon {
+     margin-left: 50px;
+     font-weight: 500;
+     border: 2px solid;
+     border-radius: 50px;
+     padding: 7px;
+     color: #59585e;
+   }
+
+   .button-room {
+     width: 50px;
+     height: 10px;
+     margin-left: 50px;
+     background-color: #1a00ad;
+     text-align: center;
+     padding: 20px 35px 20px 4px;
+     color: #fff;
+     text-decoration: none;
+     text-transform: uppercase;
+     border-radius: 5px;
+
+   }
+
+   .button-room:hover {
+     background-color: #192cdb;
+     color: #c5bdbd;
+   }
+
+  

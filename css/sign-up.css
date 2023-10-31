@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300&family=Roboto+Slab:wght@200;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color:#f8f8f8;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sign-up-form{
+    box-shadow: 9px 13px 14px 0px rgba(0,0,0,0.1);
+    border-radius: 22px;
+    width: 60%;
+    height: 600px;
+    margin-top: 180px;
+    background-color: white;
+    padding-left: 120px;
+    display: flex;
+  }
+
+  .sign-up-form h1{
+    margin: 60px 0;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+  }
+
+  .attribute{
+   margin: 30px 0;
+   border: none;
+   border-bottom: 1px solid black;
+   width: 300px;
+   padding: 10px;
+  }
+
+  .attribute i{
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+  }
+
+.fields{
+    margin-left: 20px;
+    border: none;
+}
+
+.checkbox{
+    margin: 20px 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+.register-button{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    background-color:#6eabe4;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.sign-up-img{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
